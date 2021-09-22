@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Component } from 'react';
+import Casomp1 from './components/comp1'
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Casomp1 />
     </div>
   );
 }
